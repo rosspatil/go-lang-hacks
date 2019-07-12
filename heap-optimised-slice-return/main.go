@@ -1,12 +1,14 @@
 package main
 
 import (
+	"fmt"
 	"unsafe"
 )
 
 func main() {
-	heapOptimised()
-	normal()
+	data := heapOptimised()
+	fmt.Println(data)
+	// normal()
 
 }
 
